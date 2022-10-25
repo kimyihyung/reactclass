@@ -18,7 +18,7 @@ function Slider() {
                 pagination={{ clickable: true }}
                 navigation={true}
                 modules={[Navigation, Pagination, Autoplay]}
-                className="mySwiper section"
+                className="mySwiper"
             >
                 <SwiperSlide>
                     <div class="desc">
