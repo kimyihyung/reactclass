@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-function Slider() {
+function Slider(props) {
   return (
     <section id="sliderType" className={`slider__wrap ${props.fonts}`}>
       <div className="slider__inner">

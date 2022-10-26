@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 import Main from "./components/layout/Main";
@@ -10,20 +10,20 @@ import Banner from "./components/section/Banner";
 import Text from "./components/section/Text";
 
 function App() {
-    return (
-        <>
-            <Header fonts="nexon" />
-            <Main>
-                <Slider />
-                <Image attr={["section", "nexon", "container"]} />
-                <ImgText attr={["section", "nexon", "gray", "container"]} />
-                <Card attr={["section", "nexon", "container"]} />
-                <Banner attr={["section", "nexon"]} />
-                <Text attr={["section", "nexon", "container"]} />
-            </Main>
-            <Footer attr={["section", "nexon", "gray", "container"]} />
-        </>
-    );
+  return (
+    <>
+      <Header fonts="nexon" />
+      <Main>
+        <Slider fonts="nexon" />
+        <Image attr={["section", "nexon", "container"]} />
+        <ImgText attr={["section", "nexon", "gray", "container"]} />
+        <Card attr={["section", "nexon", "container"]} />
+        <Banner attr={["section", "nexon"]} />
+        <Text attr={["section", "nexon", "container"]} />
+      </Main>
+      <Footer attr={["section", "nexon", "gray", "container"]} />
+    </>
+  );
 }
 
 export default App;
